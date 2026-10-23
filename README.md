@@ -211,6 +211,8 @@ fault**, recent activity, and a 24 h timeline. With unsaved edits the timeline p
 your draft (computed by the same engine that runs the pumps); otherwise it shows today's
 real outcomes (done, upcoming, skipped, missed or failed). Saving needs an admin user.
 
+![Alt text](images/config_card.png)
+
 ```yaml
 type: custom:aquarium-dosing-summary-card  # compact, for a main display
 title: Dosing                              # optional
@@ -219,6 +221,8 @@ pumps: [alk, ca]                           # optional: only these pumps
 ```
 
 Status, next dose, delivered vs cap, and a timeline strip per pump.
+
+![Alt text](images/display_card.png)
 
 ---
 
